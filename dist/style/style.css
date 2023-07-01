@@ -1,3 +1,29 @@
+* {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.main-cta {
+  background: #f5faff;
+}
+.main-cta img {
+  width: 10rem;
+  height: 3rem;
+}
+
+button {
+  background: #AB000A;
+  color: #f5faff;
+  font-weight: 700;
+  border: none;
+}
+
+.cta-first {
+  padding: 2rem 3rem 2rem 3rem;
+  font-size: 3rem;
+  border-radius: 5rem;
+}
+
 /*coucou toto */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
