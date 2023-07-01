@@ -10,3 +10,22 @@
     src: url('/dist/style/webfonts/Arvo-Bold.woff2');
     font-weight: bold;
 }
+
+@font-face{
+    font-family: Roboto ;
+    src: url('/dist/style/webfonts/Roboto-Regular.woff');
+    src: url('/dist/style/webfonts/Roboto-Regular.woff2');
+    font-weight: 400;
+}
+@font-face{
+    font-family: Roboto ;
+    src: url('/dist/style/webfonts/Roboto-Medium.woff');
+    src: url('/dist/style/webfonts/Roboto-Medium.woff2');
+    font-weight: 500;
+}
+@font-face{
+    font-family: Roboto ;
+    src: url('/dist/style/webfonts/Roboto-Bold.woff');
+    src: url('/dist/style/webfonts/Roboto-Bold.woff2');
+    font-weight: 700;
+}

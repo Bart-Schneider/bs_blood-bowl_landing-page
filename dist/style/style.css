@@ -1,3 +1,25 @@
+.header {
+  color: #F5FAFF;
+  background: rgb(23, 28, 47);
+  background: linear-gradient(237deg, rgb(23, 28, 47) 0%, rgb(60, 72, 102) 85%);
+  padding: 5rem 5rem 3rem 5rem;
+}
+.header p, .header h1 {
+  font-family: Arvo;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header p {
+  font-size: 1.5rem;
+}
+.header h1 {
+  font-size: 6rem;
+}
+.header h2 {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
 /*coucou toto */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -319,4 +341,47 @@ template {
   src: url("/dist/style/webfonts/Arvo-Bold.woff");
   src: url("/dist/style/webfonts/Arvo-Bold.woff2");
   font-weight: bold;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/dist/style/webfonts/Roboto-Regular.woff");
+  src: url("/dist/style/webfonts/Roboto-Regular.woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/dist/style/webfonts/Roboto-Medium.woff");
+  src: url("/dist/style/webfonts/Roboto-Medium.woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/dist/style/webfonts/Roboto-Bold.woff");
+  src: url("/dist/style/webfonts/Roboto-Bold.woff2");
+  font-weight: 700;
+}
+.header {
+  color: #f5faff;
+  background: rgb(23, 28, 47);
+  background: linear-gradient(237deg, rgb(23, 28, 47) 0%, rgb(60, 72, 102) 85%);
+  padding: 5rem 5rem 3rem 5rem;
+}
+.header p,
+.header h1 {
+  font-family: Arvo;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+.header p {
+  font-size: 1.5rem;
+}
+.header h1 {
+  font-size: 6rem;
+}
+.header h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 4rem;
+  margin-top: 3rem;
 }/*# sourceMappingURL=style.css.map */
