@@ -7,6 +7,14 @@ body {
   background-color: #f5faff;
 }
 
+.bloc-1 {
+  position: relative;
+}
+
+.button-logo {
+  margin-bottom: 2rem;
+}
+
 .header,
 .bloc-2,
 .bloc-4 {
@@ -21,6 +29,14 @@ body {
 .main-cta img {
   width: 10rem;
   height: 3rem;
+}
+
+.picture-first {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
 }
 
 .bloc-2 {
@@ -67,6 +83,26 @@ body {
   font-size: 2.5rem;
 }
 
+@media screen and (max-width: 1360px) {
+  .header {
+    height: 60vh;
+    text-align: center;
+  }
+  .picture-first {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+  }
+  .picture-first img {
+    padding-left: 184px;
+  }
+  .main-cta {
+    margin: -30vh auto 0;
+  }
+}
+/* @media screen and (max-width: 1360px) {
+
+} */
 /*coucou toto */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
